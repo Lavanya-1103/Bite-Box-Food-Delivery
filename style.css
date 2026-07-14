@@ -129,3 +129,42 @@ color: black;
         color: #555;
         line-height: 1.6;
     }
+
+
+    /* Menu card */
+    .card{
+        background: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: rgb(0, 0, 0, 0.1);
+
+    }
+
+    .card img{
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    .card button{
+        background: red;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .card button:hover{
+        background: darkred;
+    }
+
+    .menu-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        padding: 20px;
+    }
