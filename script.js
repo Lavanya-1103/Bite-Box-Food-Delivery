@@ -24,3 +24,17 @@ function togglePassword() {
         passwordInput.type = "password";
     }
 }
+
+let qty=document.getElementById("count")
+let count=0;
+
+function decreaseqty (){
+    count=0;
+    qty.innerText=count;
+}
+
+function increaseqty (){
+    count++;
+    qty.innerText=count;
+}
+

@@ -24,9 +24,9 @@
 
         <!--Menu-->
       <ul  type="A">
-        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="Menu.html">Menu</a></li>
-        <li><a href="Bite Deal.html">Bite Deal</a></li>
+        <li><a href="bitedeal.html">Bite Deal</a></li>
         <li><a href="cart.html">Cart<i class="fa-solid fa-cart-arrow-down"></i></a></li>
         <li><a href="Login.html">Login <i class="fa-solid fa-arrow-right-from-bracket"></i></a></i></li>
         
@@ -106,9 +106,9 @@
                 <td>Rs.300</td>
                 <td>
                   <div class="qty-box">
-                      <button>-</button>
-                    <span>1</span>
-                    <button>+</button>
+                      <button onclick="decreaseQty()">-</button>
+                    <span id="count">1</span>
+                    <button onclick="increaseQty()">+</button>
                   </div>
                 </td>
                 <td>Rs. 300</td>
@@ -198,6 +198,7 @@
         </tbody>
       </table>
      </section>
+     <script src="script.js"></script>
 
 </body>
 </html>
